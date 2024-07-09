@@ -173,7 +173,7 @@ main {
 
 .content {
   position: relative;
-  z-index: 1032;
+  z-index: 1;
   color: #000;
   padding: 20px;
   text-align: center;
@@ -193,11 +193,6 @@ main {
   text-align: center;
   background-color: #e1f5fe;
   color: #ffffff, white;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 13%;
-  margin-right: 10%;
-  padding-top: 1rem;
   width: auto;
   padding-bottom: 2rem;
 }
@@ -222,15 +217,10 @@ main {
 /* Contact */
 #contact {
   text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
-  margin-left: 13%;
-  margin-right: 10%;
   width: auto;
+  margin-top: 1rem;
   background-color: #e1f5fe;
   color: #ffffff, white;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
 }
 
 #contact .contact-container {
@@ -267,18 +257,12 @@ main {
 #main-footer {
   text-align: center;
   margin-top: 1rem;
-  margin-bottom: 1.5rem;
-  margin-left: 13%;
-  margin-right: 10%;
   width: auto;
-  height: 200px;
 }
 
 .footer-container {
   background-color: #e1f5fe;
   color: #ffffff, white;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   width: auto;
 }
 
