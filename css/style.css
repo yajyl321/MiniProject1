@@ -197,7 +197,7 @@ main {
   background-color: #e1f5fe;
   color: #ffffff, white;
   line-height: 2rem;
-  width: 1800px;
+  width: 1600px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -283,7 +283,7 @@ main {
 /* Project */
 #project {
   text-align: center;
-  width: 1500px;
+  width: 1600px;
   margin-top: 1rem;
   background-color: #e1f5fe;
   color: #ffffff, white;
@@ -308,7 +308,7 @@ main {
 /* Contact */
 #contact {
   text-align: center;
-  width: 1500px;
+  width: 1600px;
   margin-top: 1rem;
   background-color: #e1f5fe;
   color: #ffffff, white;
@@ -379,7 +379,7 @@ main {
 #main-footer {
   display: flex;
   flex-direction: column;
-  width: 1500px;
+  width: 1600px;
   align-items: center;
   justify-self: center;
   text-align: center;
