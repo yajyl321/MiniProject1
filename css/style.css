@@ -19,7 +19,7 @@
   --header-color: #ffffff;
 }
 
-html {
+:root {
   scroll-behavior: smooth;
 }
 
