@@ -85,7 +85,7 @@ main {
 }
 
 .icon-size {
-  font-size: 10rem;
+  font-size: 5rem;
 }
 
 .social-size {
@@ -106,7 +106,7 @@ main {
   margin-left: 25px;
   width: 6rem;
   font-size: 1.2rem;
-  transition: width 200ms ease;
+  transition: width 1ms ease;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -128,6 +128,18 @@ main {
   text-decoration: none;
   text-align: center;
   border: transparent 3px solid;
+  border-radius: 25px;
+}
+
+#navbar .nav-link:hover {
+  background: #17a2b8;
+  color: #333;
+  border-radius: 5px;
+}
+
+#navbar .nav-link.active {
+  background: #17a2b8;
+  color: #333;
   border-radius: 25px;
 }
 
@@ -233,6 +245,7 @@ main {
   padding-top: 2rem;
   padding-bottom: 3rem;
   padding-right: 3rem;
+  padding-left: 3rem;
   border: #000 5px solid;
   border-radius: 3rem;
 }
@@ -241,8 +254,8 @@ main {
   display: grid;
   margin-top: 3rem;
   grid-template-columns: 5fr 5fr 5fr;
-  margin-left: 9.3rem;
-  margin-right: 10rem;
+  justify-content: space-evenly;
+  justify-items: center;
 }
 
 .html-color {
@@ -290,9 +303,7 @@ main {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-style: normal;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-
+  padding: 1rem 3rem 3rem 3rem;
   border: #000 5px solid;
   border-radius: 3rem;
 }
@@ -301,8 +312,14 @@ main {
   display: flex;
   justify-content: space-between;
   justify-self: center;
-  width: 1500px;
+  width: 1400px;
+  padding: 3rem;
   align-items: center;
+  border: #000 3px solid;
+}
+
+#project .card {
+  margin-right: 5rem;
 }
 
 /* Contact */
@@ -405,7 +422,6 @@ main {
   list-style: none;
   background: transparent;
   justify-content: center;
-  color: ;
 }
 
 .bottom-footer {
