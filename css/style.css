@@ -222,7 +222,7 @@ main {
 /* Technology */
 #technology {
   text-align: center;
-  width: 1800px;
+  width: 1500px;
   margin-top: 1rem;
   background-color: #e1f5fe;
   color: #ffffff, white;
@@ -282,7 +282,7 @@ main {
 /* Project */
 #project {
   text-align: center;
-  width: 1800px;
+  width: 1500px;
   margin-top: 1rem;
   background-color: #e1f5fe;
   color: #ffffff, white;
@@ -307,7 +307,7 @@ main {
 /* Contact */
 #contact {
   text-align: center;
-  width: 1800px;
+  width: 1500px;
   margin-top: 1rem;
   background-color: #e1f5fe;
   color: #ffffff, white;
@@ -378,6 +378,7 @@ main {
 #main-footer {
   display: flex;
   flex-direction: column;
+  width: 1500px;
   align-items: center;
   justify-self: center;
   text-align: center;
@@ -385,7 +386,6 @@ main {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-style: normal;
-  width: 1800px;
 }
 
 .footer-container {
