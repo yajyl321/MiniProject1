@@ -89,6 +89,10 @@ main {
   height: 1rem;
 }
 
+.border-bottom {
+  border-bottom: #000 10px solid;
+}
+
 /* Navbar */
 #navbar {
   top: 25%;
@@ -346,7 +350,6 @@ main {
   width: 1400px;
   padding: 3rem;
   align-items: center;
-  border: #000 3px solid;
 }
 
 #project .card {
